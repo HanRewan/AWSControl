@@ -7,8 +7,8 @@ import inspect
 # upload test.py bucketmatvsviat12 test.py
 class ControlAWS:
 
-    def __init__(self, region="us-east-1", ACCESS_ID="AKIAVPFBYKR5NXQBJEJ2",
-                 ACCESS_KEY="RMyvwiUYxVBd6w/KOkqDrDb5bEs8ISQ2jtB0fe8h", UserName="MatvSviat"):
+    def __init__(self, region="us-east-1", ACCESS_ID="",
+                 ACCESS_KEY="", UserName="MatvSviat"):
         self.User = UserName
         self.region = region
         self.ACCESS_ID = ACCESS_ID
